@@ -55,7 +55,7 @@ public class DB {
 				// bezahlmethodeInt, geburtstag,new Adresse(stra�e, ort, plz, nr));
 
 				System.out.println("KundenNummer." + kundenNummer + " Name: " + name + ", Email: " + e_Mail
-						+ ", Telefon" + telefon + ", stra�e " + strase + " " + nr + ", plz" + plz + ", geburtstag : "
+						+ ", Telefon" + telefon + ", strasse " + strase + " " + nr + ", plz" + plz + ", geburtstag : "
 						+ geburtstag + ", bezahlmethode " + bezahlmethodeInt);
 			}
 
