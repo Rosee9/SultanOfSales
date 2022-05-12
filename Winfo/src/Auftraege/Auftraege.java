@@ -1,4 +1,4 @@
-package Aufträge;
+package Auftraege;
 
 import java.util.ArrayList;
 
