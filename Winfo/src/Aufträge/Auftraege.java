@@ -1,4 +1,4 @@
-package Aufträge;
+package Auftr�ge;
 
 import java.util.ArrayList;
 
@@ -6,7 +6,7 @@ import Kunde.Kunde;
 import Rechner.Komponenten;
 import Rechner.Rechner;
 
-public class Aufträge{
+public class Auftraege{
 	
 	
 	ArrayList<Komponenten> rechner;
@@ -17,7 +17,7 @@ public class Aufträge{
 	
 	
 
-	public Aufträge(ArrayList<Komponenten> rechner, Kunde kunde, int auftragsNummer, String status) {
+	public Auftraege(ArrayList<Komponenten> rechner, Kunde kunde, int auftragsNummer, String status) {
 		this.rechner=rechner;
 		this.kunde = kunde.getname();
 		this.auftragsNummer = auftragsNummer;

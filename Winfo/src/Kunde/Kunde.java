@@ -47,7 +47,7 @@ public class Kunde {
 //		}
 //	}
 
-	public void kundelöschen(int kundenummer) throws SQLException, ClassNotFoundException {
+	public void kundeloeschen(int kundenummer) throws SQLException, ClassNotFoundException {
 		
 		
 		String url = "jdbc:mysql://3.69.96.96:3306/";
