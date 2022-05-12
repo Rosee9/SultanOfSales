@@ -15,6 +15,7 @@ public class Aufträge{
 	private String status;
 	
 	
+	
 
 	public Aufträge(ArrayList<Komponenten> rechner, Kunde kunde, int auftragsNummer, String status) {
 		this.rechner=rechner;
