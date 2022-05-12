@@ -5,6 +5,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 
+import Kunde.Adresse;
 import Kunde.Kunde;
 
 public class DB {
