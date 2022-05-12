@@ -35,19 +35,19 @@ public class Kunde {
 //
 //	public void kundenCheck(Kunde kunde) {
 //
-//		boolean prüfen = true;
+//		boolean prï¿½fen = true;
 //
 //		for (Kunde einzelnerKunde : kunden) {
 //			if (kunde.kundennummer == einzelnerKunde.kundennummer) {
-//				prüfen = false;
+//				prï¿½fen = false;
 //			}
 //		}
-//		if (prüfen) {
+//		if (prï¿½fen) {
 //			kunden.add(kunde);
 //		}
 //	}
 
-	public void kundelöschen(int kundenummer) throws SQLException, ClassNotFoundException {
+	public void kundelÃ¶schen(int kundenummer) throws SQLException, ClassNotFoundException {
 		
 		
 		String url = "jdbc:mysql://3.69.96.96:3306/";
@@ -103,7 +103,7 @@ public class Kunde {
 			bezahlmethodeString = "Lastschrift";
 
 		}
-		String query = "INSERT INTO kunden (KundenNummer, Name, Email, Telefon, Straße, Nr, Ort, Geburtstag,plz, BezahlOption) VALUES ('"
+		String query = "INSERT INTO kunden (KundenNummer, Name, Email, Telefon, Straï¿½e, Nr, Ort, Geburtstag,plz, BezahlOption) VALUES ('"
 				+ kundenNr + "','" + name + "','" + email + "','" + telefon + "','" + adresse.getStrasse() + "','"
 				+ adresse.getNr() + "','" + adresse.getOrt() + "','" + geburtstag + "','" + adresse.getPlz() + "','"
 				+ bezahlmethodeString + "')";

@@ -27,7 +27,7 @@ public class DB {
 
 			ResultSet ergebnis;
 			ergebnis = abfrageAnweisung.executeQuery(
-					"SELECT KundenNummer, Name, Email, Telefon, Straße, Nr, Ort, Geburtstag,plz, BezahlOption FROM kunden");
+					"SELECT KundenNummer, Name, Email, Telefon, Straï¿½e, Nr, Ort, Geburtstag,plz, BezahlOption FROM kunden");
 
 			while (ergebnis.next()) {
 
@@ -35,7 +35,7 @@ public class DB {
 				String name = ergebnis.getString("Name");
 				String e_Mail = ergebnis.getString("Email");
 				int telefon = ergebnis.getInt("Telefon");
-				String straße = ergebnis.getString("Straße");
+				String strase = ergebnis.getString("Straï¿½e");
 				int nr = ergebnis.getInt("Nr");
 				String ort = ergebnis.getString("Ort");
 				String geburtstag = ergebnis.getString("Geburtstag");
@@ -52,10 +52,10 @@ public class DB {
 				}
 
 				// Kunde kunde = new Kunde(kundenNummer, name, e_Mail , telefon,
-				// bezahlmethodeInt, geburtstag,new Adresse(straße, ort, plz, nr));
+				// bezahlmethodeInt, geburtstag,new Adresse(straï¿½e, ort, plz, nr));
 
 				System.out.println("KundenNummer." + kundenNummer + " Name: " + name + ", Email: " + e_Mail
-						+ ", Telefon" + telefon + ", straße " + straße + " " + nr + ", plz" + plz + ", geburtstag : "
+						+ ", Telefon" + telefon + ", straï¿½e " + strase + " " + nr + ", plz" + plz + ", geburtstag : "
 						+ geburtstag + ", bezahlmethode " + bezahlmethodeInt);
 			}
 
