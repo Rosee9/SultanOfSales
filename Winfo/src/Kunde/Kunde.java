@@ -103,7 +103,7 @@ public class Kunde {
 			bezahlmethodeString = "Lastschrift";
 
 		}
-		String query = "INSERT INTO kunden (KundenNummer, Name, Email, Telefon, Stra�e, Nr, Ort, Geburtstag,plz, BezahlOption) VALUES ('"
+		String query = "INSERT INTO kunden (KundenNummer, Name, Email, Telefon, Strasse, Nr, Ort, Geburtstag,plz, BezahlOption) VALUES ('"
 				+ kundenNr + "','" + name + "','" + email + "','" + telefon + "','" + adresse.getStrasse() + "','"
 				+ adresse.getNr() + "','" + adresse.getOrt() + "','" + geburtstag + "','" + adresse.getPlz() + "','"
 				+ bezahlmethodeString + "')";

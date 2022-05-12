@@ -27,7 +27,7 @@ public class DB {
 
 			ResultSet ergebnis;
 			ergebnis = abfrageAnweisung.executeQuery(
-					"SELECT KundenNummer, Name, Email, Telefon, Stra�e, Nr, Ort, Geburtstag,plz, BezahlOption FROM kunden");
+					"SELECT KundenNummer, Name, Email, Telefon, Strasse, Nr, Ort, Geburtstag,plz, BezahlOption FROM kunden");
 
 			while (ergebnis.next()) {
 
@@ -35,7 +35,7 @@ public class DB {
 				String name = ergebnis.getString("Name");
 				String e_Mail = ergebnis.getString("Email");
 				int telefon = ergebnis.getInt("Telefon");
-				String strase = ergebnis.getString("Stra�e");
+				String strase = ergebnis.getString("Strasse");
 				int nr = ergebnis.getInt("Nr");
 				String ort = ergebnis.getString("Ort");
 				String geburtstag = ergebnis.getString("Geburtstag");
